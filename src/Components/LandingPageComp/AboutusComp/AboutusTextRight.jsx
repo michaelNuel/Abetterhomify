@@ -25,7 +25,7 @@ const AboutusTextRight = () => {
         md:"1.2rem", lg:"1.5rem"
       }}
 
-      lineHeight={"2.5rem"}
+      lineHeight={"2rem"}
         mb={"2rem"}
        > 
        Homify is a real estate platform that connects property owners 
