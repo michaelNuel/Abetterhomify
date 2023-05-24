@@ -4,7 +4,9 @@ import { Container, Heading } from "@chakra-ui/react"
 const OurPropHeading = () => {
   return (
     <Container mb={"4rem"}>
-    <Heading>
+    <Heading
+      textAlign={"center"}
+    >
        Top Picks in Homify
     </Heading>
     </Container>
