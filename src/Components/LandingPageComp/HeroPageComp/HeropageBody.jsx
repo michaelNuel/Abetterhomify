@@ -21,7 +21,7 @@ const HeropageBody = () => {
       <Flex alignItems={"center"}>
         <Button
           bgColor={"green"}
-          size={"large"}
+          size={"md"}
           color={"white"}
           mr={"1rem"}
           py={"1.4rem"}
@@ -30,7 +30,7 @@ const HeropageBody = () => {
         <NavLink >Get Started</NavLink>
         </Button>
           <Button
-            size={"large"}
+            size={"md"}
             bgColor={"transparent"}
             borderColor={"green"}
             border={"1px solid"}
