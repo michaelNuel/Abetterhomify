@@ -14,7 +14,7 @@ const FeaturesBody = () => {
                 />  
                 </Flex>
                 <Stack mt={'6'} spacing={'3'}>
-                    <Heading textAlign={"center"} size={"md"}>Best Deals </Heading>
+                    <Heading textAlign={"center"} fontSize={{base:"30px", md:"30px"}} fontWeight={700}>Best Deals </Heading>
                     <Text textAlign={"center"}>
                         Homify offers a wide range of high-quality 
                         properties at competitive prices.whether 
@@ -34,7 +34,7 @@ const FeaturesBody = () => {
                 </Flex>
 
                  <Stack mt={'6'} spacing={'3'}>
-                    <Heading textAlign={"center"} size={'md'}>Asset Management</Heading>
+                    <Heading textAlign={"center"}fontSize={{base:"30px", md:"30px"}} fontWeight={700}>Asset Management</Heading>
                     <Text textAlign={"center"}>
                         Homify provides a user-friendly platform for 
                         managing your real estate properties. you can 
@@ -54,7 +54,7 @@ const FeaturesBody = () => {
                  />
                 </Flex>
                 <Stack mt={'6'} spacing={'3'}>
-                    <Heading textAlign={"center"} size={'md'}>Insights and Analytics</Heading>
+                    <Heading textAlign={"center"} fontSize={{base:"30px", md:"30px"}} fontWeight={700}>Insights and Analytics</Heading>
                     <Text textAlign={"center"}>
                         Homify provides valuable insights and analytics 
                         to help you make informed decisions about 

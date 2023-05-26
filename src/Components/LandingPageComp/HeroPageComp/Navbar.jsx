@@ -1,4 +1,4 @@
-import { Box, Button, Flex } from "@chakra-ui/react"
+import { Box, Button, Flex, Heading } from "@chakra-ui/react"
 import { NavLink } from "react-router-dom"
 
 
@@ -17,8 +17,15 @@ const Navbar = () => {
       alignItems={"center"}
       >
        <Box
-        display={{base: "Block", sm:"Block", md:"blocjk", lg:"none"}}
-       >Homify</Box>
+        display={{base: "block", sm:"block", md:"block", lg:"none"}}
+       >
+        <Heading color={"black"} as={"h1"} 
+          fontWeight={600} ml={{base:"1.7rem", md:"none", lg:"none"}} 
+          fontSize={"1.8rem"}>
+          Homify
+        </Heading>
+        
+       </Box>
          
        <Box display={{base: "none", sm:"none", md:"block", lg:"block"}}>
            <NavLink className={"navbar_link"}>Home</NavLink>
@@ -28,14 +35,14 @@ const Navbar = () => {
         </Box>
          
          <Button 
-         display={{base: "none", sm:"none", md:"block", lg:"block"}}
-         bgColor={"green"}
-         color={"white"}
-        //  py={"1.8rem"}
-         px={"1.9rem"}
-         sx={buttonHover}
-         >
-            Find a Home
+           display={{base: "none", sm:"none", md:"block", lg:"block"}}
+           bgColor={"green"}
+           color={"white"}
+           size={"lg"}
+           //py={"1.8rem"}
+           px={"1.9rem"}  
+           sx={buttonHover}>
+           Find a Home
          </Button>
 
     </Flex>

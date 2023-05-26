@@ -3,11 +3,11 @@ import { Form } from "react-router-dom"
 
 const NewsletterInput = () => {
   return (
-    <Box maxW={"500px"}margin={"auto"}>
+    <Box maxW={"700px"}margin={"auto"}>
     <Form method ="post" action="/create">
    <FormControl isRequired mb="40px">
      <Flex>
-     <Input  placeholder="ENTER YOUR EMAIL " type="text" name="title" bgColor={"white"} height={"66px"} borderRadius={"0px"}/>
+     <Input  placeholder="ENTER YOUR EMAIL " type="text" name="title" bgColor={"white"} height={"66px"}  borderRadius={"0px"}/>
      <Button pt={"2rem"} pb={"2rem"} 
         pr={"3rem"} pl={"3rem"} 
         borderRadius={"none"} fontSize={".8rem"} 

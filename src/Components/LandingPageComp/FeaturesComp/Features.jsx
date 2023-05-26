@@ -6,7 +6,7 @@ import FeaturesBody from "./FeaturesBody"
 const Features = () => {
   return (
     <Box as={"section"}
-     height={{base:"200vh", md:"77vh", lg:"100vh"}}
+     height={{base:"210vh", md:"77vh", lg:"100vh"}}
      width={"100vw"}
     >
     <Container maxWidth={"7xl"}>

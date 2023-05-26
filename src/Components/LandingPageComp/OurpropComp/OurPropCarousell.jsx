@@ -51,7 +51,7 @@ const OurPropCarousell = () => {
                 </Flex>
             </CardBody>
         </Card>
-        <Card ml={{base:"1.7rem", md:"5rem"}} width={{base:"300px", md:"650px", lg:"500px"}}>
+        <Card ml={{base:"1.7rem", md:"-1.9rem"}}  width={{base:"300px", md:"650px", lg:"500px"}}>
             <Image
              src={OurPropImage}
              height={"320px"}
@@ -76,7 +76,7 @@ const OurPropCarousell = () => {
                 </Flex>
             </CardBody>
         </Card>
-        <Card ml={{base:"1.7rem", md:"5rem"}} width={{base:"300px", md:"650px", lg:"500px"}}>
+        <Card ml={{base:"1.7rem", md:"-8.9rem"}} width={{base:"300px", md:"650px", lg:"500px"}}>
             <Image
              src={OurPropImage}
              height={"320px"}
@@ -101,7 +101,7 @@ const OurPropCarousell = () => {
                 </Flex>
             </CardBody>
         </Card>
-        <Card ml={{base:"1.7rem", md:"5rem"}} width={{base:"300px", md:"650px", lg:"500px"}}>
+        <Card ml={{base:"1.7rem", md:"-15.8rem"}} width={{base:"300px", md:"650px", lg:"500px"}}>
             <Image
              src={OurPropImage}
              height={"320px"}
@@ -126,7 +126,7 @@ const OurPropCarousell = () => {
                 </Flex>
             </CardBody>
         </Card>
-        <Card ml={{base:"1.7rem", md:"5rem"}} width={{base:"300px", md:"650px", lg:"500px"}}>
+        <Card ml={{base:"1.7rem", md:"-22.6rem"}} width={{base:"300px", md:"650px", lg:"500px"}}>
             <Image
              src={OurPropImage}
              height={"320px"}

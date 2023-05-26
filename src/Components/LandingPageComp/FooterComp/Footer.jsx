@@ -8,7 +8,7 @@ import Footerlist from "../../../Components/LandingPageComp/FooterComp/Footerlis
 
 const Footer = () => {
   return (
-    <Box as={"footer"} height={{base: "80vh", md:"30vh", lg:"50vh"}} width={"100vw"} bgColor={"green"}>
+    <Box as={"footer"} height={{base: "80vh", md:"30vh", lg:"60vh"}} width={"100vw"} bgColor={"green"}>
        <Container maxWidth={"8xl"} py={"3rem"}>  
          <Flex justifyContent={"space-between"}
          flexDirection={{
