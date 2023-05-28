@@ -6,7 +6,7 @@ const InputComp = ({helpingText}) => {
   return (
     <Box maxW={"480px"} >
        <Form method="post" action="/create">
-         <FormControl isRequired mb="40px">
+         <FormControl isRequired mb="15px">
           <Input py={"1.7rem"} type="text" name="title" placeholder={helpingText} />
          </FormControl>
        </Form>

@@ -16,7 +16,7 @@ const LoginSignup = () => {
      overflowX={"hidden"}
     >
       <Box
-       width={"60vw"}
+       width={{base:"100vw", md:"70vw", lg:"60vw"}}
       >
         <Container>
           <Outlet/>
@@ -26,7 +26,7 @@ const LoginSignup = () => {
       <Box 
        bgColor={"green"}
        width={"50vw"}
-       
+       display={{base:"none", md:"none", lg:"block"}}
       >
         
           <LoginRight />

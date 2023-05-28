@@ -5,10 +5,11 @@ import InputComp from "../InputComp/InputComp"
 import Btn from "../ButtonComp/Btn"
 import GoogleBtn from "../ButtonComp/GoogleBtn"
 import { NavLink } from "react-router-dom"
+import Password from "../InputComp/Password"
 
 
 
-// import { NavLink } from 'react-router-dom'
+
 
 const Loginpage = () => {
   return (
@@ -18,7 +19,8 @@ const Loginpage = () => {
         <InputComp helpingText={"Enter Your Username"} />
         <InputComp helpingText={"Enter Your Email"} />
         <InputComp helpingText={"Enter Your Phone Number"} />
-        <InputComp  helpingText={"Enter your Password"}/>
+        <Password />
+       
         <Btn btnText={"Sign Up"}/>
         <GoogleBtn />
         <Flex justifyContent={"space-between"}>

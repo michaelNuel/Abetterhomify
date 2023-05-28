@@ -4,12 +4,13 @@ import { NavLink } from "react-router-dom"
 
 const Btn = ({btnText}) => {
   return (
-    <Box>
-       <Button width={"480px"}
+    <Box maxW={"480px"}>
+       <Button
         bgColor={"green"} 
         color={"white"}
         fontWeight={400}
         fontSize={"20px"}
+        width={"100%"}
         py={"2rem"}>
          <NavLink to="/" >
             {btnText}
