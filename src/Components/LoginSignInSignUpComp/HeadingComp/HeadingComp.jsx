@@ -5,7 +5,7 @@ const HeadingComp = ({headingText}) => {
   return (
     <Box mt={"2rem"} mb={"2rem"}>
       <Heading
-         fontSize={{base:"28px" ,lg:"42.9923px"}} 
+         fontSize={{base:"28px" ,lg:"40px"}} 
           fontWeight={700} lineHeight={"54px"} >
            {headingText}
      </Heading>
