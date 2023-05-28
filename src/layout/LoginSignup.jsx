@@ -2,7 +2,7 @@ import { Box, Container, Flex } from '@chakra-ui/react'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import LoginRight from '../Pages/LoginPages/SideImageFlex/LoginRight'
-// import SignUp from "../Pages/LoginPages/SignIn/SignUp"
+
  
 
 

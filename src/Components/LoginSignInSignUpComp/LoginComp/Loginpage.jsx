@@ -11,6 +11,7 @@ import Password from "../InputComp/Password"
 
 
 
+
 const Loginpage = () => {
   return (
     <Box  height={"100vh"} py={"55px"} >
@@ -21,9 +22,9 @@ const Loginpage = () => {
         <InputComp helpingText={"Enter Your Phone Number"} />
         <Password />
        
-        <Btn btnText={"Sign Up"}/>
+        <Btn link={"signuppageform2"} btnText={"Sign Up"}/>
         <GoogleBtn />
-        <Flex justifyContent={"space-between"}>
+        <Flex justifyContent={"space-between"} mt={".8rem"} >
           <Text 
            textDecoration={"underline"}
           >
