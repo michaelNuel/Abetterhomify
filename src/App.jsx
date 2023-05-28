@@ -7,17 +7,20 @@ import {
 } from "react-router-dom";
 import LandingpageRoot from "./layout/LandingpageRoot";
 import LandingPage from "./Pages/LandingPages/LandingPage";
-import Login from "./layout/Login";
-import Signin from "./Pages/LoginPages/SignIn/Signin";
-import Signup from "./Pages/LoginPages/SignUp/Signup";
+import LoginSignup from "./layout/LoginSignup";
+import Loginpage from "./Components/LoginSignInSignUpComp/LoginComp/Loginpage";
+import SignIn from "./Components/LoginSignInSignUpComp/SignupComp/SignIn";
+
+
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<LandingpageRoot />}>
           <Route index element={<LandingPage />}/>
-          <Route path="login" element={<Login />}>
-             <Route index element={<Signin />}/>
-             <Route path="signup" element={<Signup />} />
+          <Route path="login" element={<LoginSignup />}>
+            <Route index element={<Loginpage/>}/>
+            <Route path="signin" element={<SignIn />}/> 
           </Route>
     </Route>
   )
